@@ -6,6 +6,27 @@ AI agents forget what you decided. Figural gives them a persistent decision log 
 npx figural-core init
 ```
 
+## 60-second quickstart
+
+From your repo root:
+
+```bash
+npx figural-core init
+```
+
+Then do the two copy/paste steps it prints:
+
+- Paste the 3 instruction lines into `CLAUDE.md`
+- Paste the MCP config JSON into Cursor or Claude Code settings
+
+Now open Claude Code and run:
+
+```text
+/figural-scope
+```
+
+That logs your initial scope decision into `.figural/log.json`. In future sessions, have your agent read `.specpack.json` + `.figural/log.json` before doing work.
+
 ## Quick start
 
 From your repo root, run:
