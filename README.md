@@ -8,6 +8,8 @@ Figural fixes that. A persistent decision log and structured spec that your agen
 
 Join our Discord here: https://discord.gg/E2ThS3wvtS
 
+https://github.com/user-attachments/assets/41a9e1b2-339e-4379-81ae-6c4bdf077f68
+
 ## What it looks like
 
 After one `npx figural-core init` and one `/figural-scope`, your repo has this:
